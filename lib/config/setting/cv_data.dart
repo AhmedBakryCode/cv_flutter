@@ -9,106 +9,47 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 MyData myData = MyData(
   header: Header(
-    name: "Eslam Elezaby",
-    jobTitle: "Mobile App Devloper",
+    name: "Ahmed Bakry",
+    jobTitle: "Mobile App Devloper(Flutter Developer)",
     bio:
-        "Flutter virtuoso 🚀 | Crafting pixel-perfect magic ✨ | Turning caffeine into code"
-        "☕ | Bug whisperer 🐛 | Emoji enthusiast 🤖 | #FlutterMastermind",
+        "I am a passionate and dedicated Flutter developer with a keen interest in building beautiful,"
+        " efficient, and user-friendly mobile applications. Although I'm relatively new to the industry,"
+        " I am enthusiastic about learning and adapting to new technologies.",
     location: Location(
       address: "Egypt",
       locationX: "",
       locationY: "",
     ),
-    phone: Phone(code: "+20", number: "1032390247"),
-    email: "eslamelezaby98@gmail.com",
+    phone: Phone(code: "+20", number: "01065406332"),
+    email: "fffffaaaa33333ssss@gmail.com",
     links: [
       Links(
-        "https://github.com/eslamelezaby98",
+        "https://github.com/AhmedBakryCode?tab=repositories",
         icon: FontAwesomeIcons.github,
       ),
       Links(
-        "https://www.linkedin.com/in/eslamelezaby98/",
+        "https://www.linkedin.com/in/احمد-بكري-899705223",
         icon: FontAwesomeIcons.linkedin,
-      ),
-      Links(
-        "https://medium.com/@eslamelezaby98",
-        icon: FontAwesomeIcons.medium,
-      ),
-      Links(
-        "https://play.google.com/store/apps/developer?id=ecmpp",
-        icon: FontAwesomeIcons.googlePlay,
-      ),
-      Links(
-        "https://play.google.com/store/apps/developer?id=Troond.com",
-        icon: FontAwesomeIcons.googlePlay,
-      ),
-      Links(
-        "https://apps.apple.com/us/developer/ugetic-llc/id1675647077",
-        icon: FontAwesomeIcons.appStore,
       ),
     ],
   ),
   about: About(
     title: "About",
     body:
-        "Results-driven Flutter developer with 2 years of experience in developing and delivering high-quality"
-        "mobile applications. Proficient in utilizing the Flutter framework to create cross-platform applications"
-        "for iOS and Android platforms. Skilled in front-end development, UI/UX design, and integrating APIs to"
-        "enhance application functionality. Strong problem-solving abilities and a passion for delivering efficient"
-        "and user-friendly mobile experiences",
-  ),
-  workExperience: WorkExperience(
-    title: "Work Experience",
-    works: [
-      Works(
-        companyName: "Stoork",
-        country: "Turkey",
-        type: "Remote",
-        jobTitle: "Mobile App Developer",
-        start: "2023",
-        end: "Present",
-        companySite: "https://www.stoorks.com/",
-        description:
-            "I played a pivotal role in creating and maintaining mobile applications for Stork company. Working"
-            "remotely, I effectively collaborated with cross-functional teams to deliver high-quality mobile applications"
-            "and contribute to the success of various projects",
-      ),
-      Works(
-        companyName: "ECMPP",
-        country: "Egypt",
-        type: "Full Time",
-        jobTitle: "Mobile App Developer",
-        start: "2022",
-        end: "2024",
-        companySite: "https://www.ecmpp.com/#/home",
-        description:
-            " Implemented UI/UX designs, translating wireframes and mockups into interactive and visually appealing"
-            "mobile interfaces. We integrated RESTful APIs to fetch and display real-time dynamic data, improving application"
-            "functionality and user experience.",
-      ),
-      Works(
-        companyName: "Freelancer",
-        country: "",
-        type: "Freelancer",
-        jobTitle: "Mobile App Developer",
-        start: "2020",
-        end: "2022",
-        companySite: "https://www.freelancer.com/",
-        description:
-            "Collaborated closely with clients to understand project requirements, translate concepts into technical"
-            " specifications, and provide regular progress updates. Actively engaged in client communication, addressing feedback, and incorporating requested changes"
-            " to meet their specific requirements.",
-      ),
-    ],
+        "My short-term goal is to continue expanding my knowledge and skills in Flutter development"
+        " by working on challenging projects and collaborating with experienced professionals in "
+        "the field. In the long run, I aspire to contribute to innovative mobile applications that"
+        " positively impact users' lives.",
   ),
   education: Education(
     title: "Education",
     items: [
       Item(
-        specialization: "Collage degree in Marketing",
-        start: "2016",
-        end: "2020",
-        universityName: "FACULTY OF COMMERCE - ALEXANDRIA UNIVERSITY",
+        specialization: "Computer Science",
+        start: "2020",
+        end: "2024",
+        universityName:
+            "FACULTY OF Computers And Artificial Intelligence - Beni-Suef UNIVERSITY",
       ),
     ],
   ),
@@ -116,47 +57,44 @@ MyData myData = MyData(
     title: "Projects",
     items: [
       ProjectItem(
-        name: "Zone",
-        link: "https://zone.ecmpp.com/",
+        name: "Todo App",
+        link: "https://github.com/AhmedBakryCode/todo_app",
         googlePlay:
-            "https://play.google.com/store/apps/details?id=com.ecmpp.zone.app",
-        appStore: "https://apps.apple.com/us/app/zone-office/id6446050733",
+            "",
+        appStore: "",
         description:
-            "Zone is more than just an app; it's your engineering partner. It simplifies the process, saves you time and resources, and gives you the confidence to bring your ideas to life.",
+            "This App for writting your tasks and you can choose the date you need to achive it and notify you with this task by using local notification",
         badgets: [
-          "Firebase",
-          "API",
-          "Agora",
-          "Pusher",
+          "Sqlflite",
+          "GetX",
+          "Local Notification",
           "Flutter",
         ],
         macOS: "",
         windows: "",
       ),
       ProjectItem(
-        name: "ECMPP",
-        link: "https://ecmpp.com/#/home",
+        name: "Meal Ingredients App",
+        link: "https://github.com/AhmedBakryCode/meal_ingredients_app",
         googlePlay:
-            "https://apps.apple.com/us/app/%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D9%83%D8%AA%D8%A8%D9%83-%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A/id1624253518",
-        macOS: "https://apps.apple.com/us/app/ecmpp/id644363585",
+            "",
+        macOS: "",
         windows:
-            "https://apps.microsoft.com/detail/9P671ZNDG1ZX?hl=ar-sa&gl=US",
-        appStore: "https://apps.apple.com/us/app/ecmpp/id6443635857",
+            "",
+        appStore: "",
         description:
-            "ECMPP is a revolutionary app designed to empower ERP engineers with the ultimate content management muscle.",
+            "Meal App is for showing alot of meals and the ingredients and how to do it",
         badgets: [
           "Flutter",
-          "Firebase",
-          "Google Drive",
+          "Http",
           "API",
-          "Agora",
+          "Sqflite",
         ],
       ),
       ProjectItem(
-        name: "Trendwey",
-        link: "https://trendwey.com/#/",
-        googlePlay:
-            "https://play.google.com/store/apps/details?id=com.stork.trendweyApp",
+        name: "Store App",
+        link: "https://github.com/AhmedBakryCode/store_app",
+        googlePlay:"",
         appStore: "",
         description:
             "An e-commerce app is a mobile application that allows users to buy and sell products online.",
@@ -167,19 +105,52 @@ MyData myData = MyData(
         macOS: "",
         windows: "",
       ),
+      ProjectItem(
+        name: "Online-course",
+        link: "https://github.com/AhmedBakryCode/online-course",
+        googlePlay:"",
+        appStore: "",
+        description:
+        "An online-course app is a mobile application that allows users to buy and sell courses online and chat with the other users",
+        badgets: [
+          "Flutter",
+          "API",
+          "Hive",
+        ],
+        macOS: "",
+        windows: "",
+      ),
+      ProjectItem(
+        name: "Notes App",
+        link: "https://github.com/AhmedBakryCode/notes_app",
+        googlePlay:"",
+        appStore: "",
+        description:
+        "A notes app is a simple mobile application that allows users to writes and save your notes",
+        badgets: [
+          "Flutter",
+          "Hive",
+        ],
+        macOS: "",
+        windows: "",
+      ),
     ],
   ),
   skills: Skills(
     title: "Skills",
     items: [
-      "Unit Test",
       "Git",
       "GitHub",
       "Flutter",
       "Bloc",
+      "GetX",
       "Provider",
       "API",
       "Firebase",
     ],
   ),
+  workExperience: WorkExperience(
+      title:
+          "I am working on a UI designs in figms as a competition but i still not worked with a company",
+      works: []),
 );
