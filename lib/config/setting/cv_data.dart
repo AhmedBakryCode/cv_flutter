@@ -49,7 +49,7 @@ MyData myData = MyData(
         start: "2020",
         end: "2024",
         universityName:
-            "FACULTY OF Computers And Artificial Intelligence - Beni-Suef UNIVERSITY",
+            "Computers And AI - Beni-Suef UNI",
       ),
     ],
   ),
